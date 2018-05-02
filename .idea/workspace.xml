@@ -2,11 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da2c33f5-eb4c-4a5d-88a0-efbbbb30d6b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/insight.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/nr-1071.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/remote.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/20101013_coho_138.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/20101013_coho_138.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/20111114_arboretum_034.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/20111114_arboretum_034.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/20120106_students_center_8459.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/20120106_students_center_8459.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/20120613_devon_lambert_0080_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/20120613_devon_lambert_0080_0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/20120928_tercero_120.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/20120928_tercero_120.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/20121005_pajamarino_288.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/20121005_pajamarino_288.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/20130612_segundodc_017.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/20130612_segundodc_017.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/20130927_buzz_154.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/20130927_buzz_154.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/DgDVANl3ALyZA6mNpyVBCh-R.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/DgDVANl3ALyZA6mNpyVBCh-R.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/ag-ranking-badge91916_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/ag-ranking-badge91916_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/arc_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/arc_0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/as-thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/as-thumbnail.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/awards-combo7tb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/awards-combo7tb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/badge-veterinary_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/banduh.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/banduh.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/banner-gold.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/banner-gold.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/brand-arrows.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/brand-arrows.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/c-horse.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/c-horse.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/cal-aggie-band-uh-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/cal-aggie-band-uh-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/carlito-lebrilla-925.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/carlito-lebrilla-925.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/checkbox_icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/checkbox_icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/chevron.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/chevron.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/davis_west_village-46.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/davis_west_village-46.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/dwib-thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/dwib-thumbnail.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/espn_basketball_crowdshot.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/espn_basketball_crowdshot.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/farmar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/farmar.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fashion-design-class-uc-davis_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/fashion-design-class-uc-davis_0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/gift-grass.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/gift-grass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/gift_icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/gift_icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/global-header-bg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/global-header-bg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/gunrock-linework.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/gunrock-linework.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/hen_housing_cage_freeedit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/icon-search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/icon-search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/icons-priority-links.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/icons-priority-links.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/icons-social-follow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/icons-social-follow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/mail-poppy.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/mail-poppy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/read-arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/read-arrow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/slick.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/slick.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/slideshow-buttons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/slideshow-buttons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/stadium.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/susan-williams-beach-925.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/thumbnail-ext.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/title-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/title-icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/uc-logo-gold.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/uc-logo-gold.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/user_icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/user_icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/vtour-redbud.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/vtour-redbud.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/where-is-uc-davis-icon_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/where-is-uc-davis-icon_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,43 +62,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="js_hzkZwubNj59ODRIywCI1LpUBX-kBmsXJmfAytqWntjw.js.download" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/js_hzkZwubNj59ODRIywCI1LpUBX-kBmsXJmfAytqWntjw.js.download">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="js_I8FnZS9Hl2noKqTZhcdV2BE0294H4Uve_lveO7gxsy0.js.download" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/js_I8FnZS9Hl2noKqTZhcdV2BE0294H4Uve_lveO7gxsy0.js.download">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="js_ZAKh7mwVPAiABQlKJQyv6Pm7ZpksUotuqotnDTeOtZ4.js.download" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/js_ZAKh7mwVPAiABQlKJQyv6Pm7ZpksUotuqotnDTeOtZ4.js.download">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="7" column="7015" lean-forward="false" selection-start-line="7" selection-start-column="7015" selection-end-line="7" selection-end-column="7015" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="607" column="45" lean-forward="true" selection-start-line="607" selection-start-column="45" selection-end-line="607" selection-end-column="45" />
+            <state relative-caret-position="75">
+              <caret line="710" column="93" lean-forward="true" selection-start-line="710" selection-start-column="93" selection-end-line="710" selection-end-column="93" />
               <folding>
-                <element signature="n#script#10;n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#2342#29147#0" />
                 <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -141,70 +156,23 @@
                 <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#iframe#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#iframe#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1525214542808" expanded="true" signature="33921:34061" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activityi(1).html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activityi(1).html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/assets/activityi(1).html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="195">
+              <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="insight.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/insight.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="30" column="496" lean-forward="false" selection-start-line="30" selection-start-column="496" selection-end-line="30" selection-end-column="496" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="remote.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/remote.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="25" column="61" lean-forward="true" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="www-embed-player.js.download" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/www-embed-player.js.download">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="106" column="6" lean-forward="false" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.js.download" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/base.js.download">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="2324" column="26" lean-forward="false" selection-start-line="2324" selection-start-column="26" selection-end-line="2324" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nr-1071.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/nr-1071.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="23479" lean-forward="false" selection-start-line="0" selection-start-column="23479" selection-end-line="0" selection-end-column="23479" />
-              <folding />
-            </state>
-          </provider>
+      <file leaf-file-name="user_icon.svg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/assets/user_icon.svg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -244,11 +212,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -262,10 +225,27 @@
         <option value="$PROJECT_DIR$/University of California, Davis _ UC Davis.html" />
         <option value="$PROJECT_DIR$/assets/4xSyF6VDuIM.html" />
         <option value="$PROJECT_DIR$/assets/WCLKzB0bocc.html" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/assets/nr-1071.min.js" />
         <option value="$PROJECT_DIR$/public/assets/insight.min.js" />
         <option value="$PROJECT_DIR$/public/assets/remote.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/assets/brand-arrows.svg" />
+        <option value="$PROJECT_DIR$/public/assets/c-horse.svg" />
+        <option value="$PROJECT_DIR$/public/assets/checkbox_icon.svg" />
+        <option value="$PROJECT_DIR$/public/assets/chevron.svg" />
+        <option value="$PROJECT_DIR$/public/assets/gift_icon.svg" />
+        <option value="$PROJECT_DIR$/public/assets/global-header-bg.svg" />
+        <option value="$PROJECT_DIR$/public/assets/gunrock-linework.svg" />
+        <option value="$PROJECT_DIR$/public/assets/icon-search.svg" />
+        <option value="$PROJECT_DIR$/public/assets/icons-priority-links.svg" />
+        <option value="$PROJECT_DIR$/public/assets/icons-social-follow.svg" />
+        <option value="$PROJECT_DIR$/public/assets/logo.svg" />
+        <option value="$PROJECT_DIR$/public/assets/read-arrow.svg" />
+        <option value="$PROJECT_DIR$/public/assets/slideshow-buttons.svg" />
+        <option value="$PROJECT_DIR$/public/assets/slick.svg" />
+        <option value="$PROJECT_DIR$/public/assets/title-icons.svg" />
+        <option value="$PROJECT_DIR$/public/assets/uc-logo-gold.svg" />
+        <option value="$PROJECT_DIR$/public/assets/user_icon.svg" />
       </list>
     </option>
   </component>
@@ -275,73 +255,59 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="3866" />
-    <option name="height" value="2106" />
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="169" />
+    <option name="y" value="23" />
+    <option name="width" value="1285" />
+    <option name="height" value="829" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ucd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ucd" type="462c0819:PsiDirectoryNode" />
+              <item name="davis-optimization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="davis-optimization" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ucd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ucd" type="462c0819:PsiDirectoryNode" />
+              <item name="davis-optimization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="davis-optimization" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ucd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ucd" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ucd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ucd" type="462c0819:PsiDirectoryNode" />
+              <item name="davis-optimization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="davis-optimization" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="nr-1071.js" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="settings.editor.selected.configurable" value="project.scopes" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.scopes" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets" />
       <recent name="C:\Users\Pavan\UCSD\CSE 190 WebPerf\ucd\public" />
       <recent name="C:\Users\Pavan\UCSD\CSE 190 WebPerf\ucd\assets" />
     </key>
@@ -360,29 +326,12 @@
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -392,30 +341,13 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -428,21 +360,31 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
     </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -453,43 +395,45 @@
       <updated>1525149390550</updated>
       <workItem from="1525149392304" duration="4994000" />
       <workItem from="1525213664110" duration="1632000" />
+      <workItem from="1525215841342" duration="2931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6626000" />
+    <option name="totallyTimeSpent" value="9557000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
+    <frame x="-59" y="23" width="1285" height="829" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17333333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32934782" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29403973" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3844358" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,159 +442,60 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/assets/4xSyF6VDuIM.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5684">
-          <caret line="406" column="22" lean-forward="false" selection-start-line="406" selection-start-column="20" selection-end-line="406" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/WCLKzB0bocc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3206">
-          <caret line="229" column="27" lean-forward="true" selection-start-line="229" selection-start-column="27" selection-end-line="229" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js_0adIFQivvBhMIOeto8NpVsWNquecN3Am8auxxfbigHk.js.download">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js_EVKJFuDIq_mG8TCOk6rL5W8NHj4V5IHzXrPUcc_7JfM.js.download">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js_fa78OyYHRCmIHcmbx7ar1tE_wrFMD7AWaTUweeJKXLo.js.download">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js_fkKBAGPp1l2O2xv4WHDe0wg667t70p8Sn5vMoJxWBX0.js.download">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js_gEAI37pYu31lMn5VuD7D-K1d35pFKvXfTbTPULfYJF4.js.download">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1932">
-          <caret line="138" column="73" lean-forward="false" selection-start-line="138" selection-start-column="72" selection-end-line="138" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js_hzkZwubNj59ODRIywCI1LpUBX-kBmsXJmfAytqWntjw.js.download">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js_I8FnZS9Hl2noKqTZhcdV2BE0294H4Uve_lveO7gxsy0.js.download">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js_ZAKh7mwVPAiABQlKJQyv6Pm7ZpksUotuqotnDTeOtZ4.js.download">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
-          <caret line="7" column="7015" lean-forward="false" selection-start-line="7" selection-start-column="7015" selection-end-line="7" selection-end-column="7015" />
-          <folding />
+          <caret line="7" column="7015" selection-start-line="7" selection-start-column="7015" selection-end-line="7" selection-end-column="7015" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/jquery.min.js.download">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/activityi.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/fbevents.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/slick.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/css_Xq2-pW4hw3lF2pMiRK7V0FA-1P6QAYIjTIERD9uuKTI.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="99" column="18" lean-forward="true" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/css_9Oz-w3KnMy8Oxu4PzQtLK3PPI4xrAZ2DSwsWwNJFl5w.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
-          <caret line="1214" column="79" lean-forward="false" selection-start-line="1214" selection-start-column="79" selection-end-line="1214" selection-end-column="79" />
-          <folding />
+          <caret line="1214" column="79" selection-start-line="1214" selection-start-column="79" selection-end-line="1214" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/css_IhoUiTSixGex6d1R9-HP1I8fKOzQQATGkCCVJILOsDU.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118938">
-          <caret line="9478" column="27" lean-forward="false" selection-start-line="9478" selection-start-column="27" selection-end-line="9478" selection-end-column="27" />
-          <folding />
+          <caret line="9478" column="27" selection-start-line="9478" selection-start-column="27" selection-end-line="9478" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/gtm.js.download">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
           <caret line="961" column="19" lean-forward="true" selection-start-line="779" selection-start-column="4" selection-end-line="961" selection-end-column="19" />
           <folding>
-            <element signature="n#script#10;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#2342#29147#0" />
             <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -738,7 +583,6 @@
             <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1525214542808" expanded="true" signature="33921:34061" ph="..." />
           </folding>
         </state>
       </provider>
@@ -746,139 +590,93 @@
     <entry file="file://$PROJECT_DIR$/public/assets/4xSyF6VDuIM.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5684">
-          <caret line="406" column="22" lean-forward="false" selection-start-line="406" selection-start-column="20" selection-end-line="406" selection-end-column="22" />
-          <folding />
+          <caret line="406" column="22" selection-start-line="406" selection-start-column="20" selection-end-line="406" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/WCLKzB0bocc.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3206">
-          <caret line="229" column="27" lean-forward="false" selection-start-line="229" selection-start-column="27" selection-end-line="229" selection-end-column="27" />
-          <folding />
+          <caret line="229" column="27" selection-start-line="229" selection-start-column="27" selection-end-line="229" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js_0adIFQivvBhMIOeto8NpVsWNquecN3Am8auxxfbigHk.js.download">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js_EVKJFuDIq_mG8TCOk6rL5W8NHj4V5IHzXrPUcc_7JfM.js.download">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js_fa78OyYHRCmIHcmbx7ar1tE_wrFMD7AWaTUweeJKXLo.js.download">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js_fkKBAGPp1l2O2xv4WHDe0wg667t70p8Sn5vMoJxWBX0.js.download">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js_gEAI37pYu31lMn5VuD7D-K1d35pFKvXfTbTPULfYJF4.js.download">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1932">
-          <caret line="138" column="73" lean-forward="false" selection-start-line="138" selection-start-column="72" selection-end-line="138" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js_hzkZwubNj59ODRIywCI1LpUBX-kBmsXJmfAytqWntjw.js.download">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js_I8FnZS9Hl2noKqTZhcdV2BE0294H4Uve_lveO7gxsy0.js.download">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js_ZAKh7mwVPAiABQlKJQyv6Pm7ZpksUotuqotnDTeOtZ4.js.download">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="7" column="7015" lean-forward="false" selection-start-line="7" selection-start-column="7015" selection-end-line="7" selection-end-column="7015" />
-          <folding />
+          <caret line="138" column="73" selection-start-line="138" selection-start-column="72" selection-end-line="138" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/nr-1071.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/nr-1071.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23479" lean-forward="false" selection-start-line="0" selection-start-column="23479" selection-end-line="0" selection-end-column="23479" />
-          <folding />
+        <state relative-caret-position="345">
+          <caret column="23479" selection-start-column="23479" selection-end-column="23479" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/insight.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="496" lean-forward="false" selection-start-line="30" selection-start-column="496" selection-end-line="30" selection-end-column="496" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/remote.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="25" column="61" lean-forward="true" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/www-embed-player.js.download">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="106" column="6" lean-forward="false" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="450">
+          <caret line="30" column="496" selection-start-line="30" selection-start-column="496" selection-end-line="30" selection-end-column="496" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/base.js.download">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="2324" column="26" lean-forward="false" selection-start-line="2324" selection-start-column="26" selection-end-line="2324" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="34860">
+          <caret line="2324" column="26" selection-start-line="2324" selection-start-column="26" selection-end-line="2324" selection-end-column="26" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js_ZAKh7mwVPAiABQlKJQyv6Pm7ZpksUotuqotnDTeOtZ4.js.download">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="7" column="7015" selection-start-line="7" selection-start-column="7015" selection-end-line="7" selection-end-column="7015" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/davis_west_village-46.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/20101013_coho_138.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js_hzkZwubNj59ODRIywCI1LpUBX-kBmsXJmfAytqWntjw.js.download">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js_I8FnZS9Hl2noKqTZhcdV2BE0294H4Uve_lveO7gxsy0.js.download">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/ag-ranking-badge91916_0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/badge-veterinary_0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="607" column="45" lean-forward="true" selection-start-line="607" selection-start-column="45" selection-end-line="607" selection-end-column="45" />
+        <state relative-caret-position="75">
+          <caret line="710" column="93" lean-forward="true" selection-start-line="710" selection-start-column="93" selection-end-line="710" selection-end-column="93" />
           <folding>
-            <element signature="n#script#10;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#2342#29147#0" />
             <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -966,18 +764,88 @@
             <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1525214542808" expanded="true" signature="33921:34061" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/activityi(1).html">
+    <entry file="file://$PROJECT_DIR$/public/assets/c-horse.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/brand-arrows.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/www-embed-player.js.download">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="15">
+          <caret line="106" column="6" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="6" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/checkbox_icon.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/gift_icon.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/chevron.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/global-header-bg.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/hotjar-653936.js.download">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/gunrock-linework.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/icon-search.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/icons-priority-links.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/icons-social-follow.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/remote.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/slideshow-buttons.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/read-arrow.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/mail-poppy.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/slick.svg">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/title-icons.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/uc-logo-gold.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/activityi(1).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/user_icon.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">
