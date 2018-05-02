@@ -9,6 +9,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             var lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
+            var lazyBackgrounds = [].slice.call(document.querySelector(".lazy-background"));
 
             if ("IntersectionObserver" in window) {
                 let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
@@ -16,9 +17,17 @@
                         if (entry.isIntersecting) {
                             let lazyImage = entry.target;
                             lazyImage.src = lazyImage.dataset.src;
-                            lazyImage.srcset = lazyImage.dataset.srcset;
                             lazyImage.classList.remove("lazy");
                             lazyImageObserver.unobserve(lazyImage);
+                        }
+                    });
+                });
+
+                let lazyBackgroundObserver = new IntersectionObserver(function(entries, observer) {
+                    entries.forEach(function(entry) {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add("visible");
+                            lazyBackgroundObserver.unobserve(entry.target);
                         }
                     });
                 });
@@ -26,6 +35,11 @@
                 lazyImages.forEach(function(lazyImage) {
                     lazyImageObserver.observe(lazyImage);
                 });
+
+                lazyBackgrounds.forEach(function(lazyBackground) {
+                    lazyBackgroundObserver.observe(lazyBackground);
+                });
+
             } else {
                 // Possibly fall back to a more compatible method here
             }
@@ -714,6 +728,10 @@
           href="assets/css_PxsPpITToy8ZnO0bJDA1TEC6bbFpGTfSWr2ZP8LuFYo.css"
           media="all">
     <style>#ucd-hb-10 {
+        background-image: url('assets/placeholder/first-frame-ambient_2.jpg');
+    }
+
+    #ucd-hb-10 .visible {
         background-image: url('assets/first-frame-ambient_2.jpg');
     }
     </style>
@@ -2242,7 +2260,7 @@
 
 
                                             <div class="pane-content ">
-                                                <section id="ucd-hb-10" class="fieldable-panels-pane hero-banner">
+                                                <section id="ucd-hb-10" class="fieldable-panels-pane hero-banner lazy-background">
                                                     <div class="hero-banner__media">
                                                         <div class=""
                                                              data-hero-banner-video="assets/624918722.mp4">
@@ -3354,7 +3372,8 @@
                                                                                                      height="563"
                                                                                                      alt="A packed crowd cheers on the Men&#39;s Basketball team in the UC Davis Pavilion"
                                                                                                      title="By joining Aggie Pack, you can participate in the largest university spirit organization in the nation and support your favorite teams."
-                                                                                                     src="assets/espn_basketball_crowdshot.jpeg">
+                                                                                                     src="assets/placeholder/espn_basketball_crowdshot.jpg"
+                                                                                                     data-src="assets/espn_basketball_crowdshot.jpeg">
                                                                                             </div>
                                                                                         </div>
                                                                                         <div class="slideshow__text">
