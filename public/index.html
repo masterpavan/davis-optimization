@@ -205,6 +205,59 @@
     box-sizing: border-box
 }
 
+
+    .youtube {
+        background-color: #000;
+        margin-bottom: 30px;
+        position: relative;
+        padding-top: 56.25%;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .youtube img {
+        width: 100%;
+        top: -16.82%;
+        left: 0;
+        opacity: 0.7;
+    }
+    .youtube .play-button {
+        width: 90px;
+        height: 60px;
+        background-color: #333;
+        box-shadow: 0 0 30px rgba( 0,0,0,0.6 );
+        z-index: 1;
+        opacity: 0.8;
+        border-radius: 6px;
+    }
+    .youtube .play-button:before {
+        content: "";
+        border-style: solid;
+        border-width: 15px 0 15px 26.0px;
+        border-color: transparent transparent transparent #fff;
+    }
+    .youtube img,
+    .youtube .play-button {
+        cursor: pointer;
+    }
+    .youtube img,
+    .youtube iframe,
+    .youtube .play-button,
+    .youtube .play-button:before {
+        position: absolute;
+    }
+    .youtube .play-button,
+    .youtube .play-button:before {
+        top: 50%;
+        left: 50%;
+        transform: translate3d( -50%, -50%, 0 );
+    }
+    .youtube iframe {
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
 .row:after, .row:before {
     display: table;
     content: " ";
@@ -355,6 +408,7 @@ img, video {
 
 @font-face {
     font-family: proxima-nova;
+    font-display: auto;
     src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_regular_macroman/proximanova-regular-webfont.eot);
     src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_regular_macroman/proximanova-regular-webfont.eot?#iefix) format("embedded-opentype"), url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_regular_macroman/proximanova-regular-webfont.woff) format("woff"), url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_regular_macroman/proximanova-regular-webfont.ttf) format("truetype"), url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_regular_macroman/proximanova-regular-webfont.svg#proxima-nova) format("svg");
     font-weight: 400;
@@ -364,12 +418,14 @@ img, video {
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
     @font-face {
         font-family: proxima-nova;
+        font-display: auto;
         src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_regular_macroman/proximanova-regular-webfont.svg#proxima-nova) format("svg")
     }
 }
 
 @font-face {
     font-family: proxima-nova;
+    font-display: auto;
     src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_bold_macroman/proximanova-bold-webfont.eot);
     src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_bold_macroman/proximanova-bold-webfont.eot?#iefix) format("embedded-opentype"), url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_bold_macroman/proximanova-bold-webfont.woff) format("woff"), url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_bold_macroman/proximanova-bold-webfont.ttf) format("truetype"), url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_bold_macroman/proximanova-bold-webfont.svg#proxima-nova) format("svg");
     font-weight: 700;
@@ -379,12 +435,14 @@ img, video {
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
     @font-face {
         font-family: proxima-nova;
+        font-display: auto;
         src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_bold_macroman/proximanova-bold-webfont.svg#proxima-nova) format("svg")
     }
 }
 
 @font-face {
     font-family: proxima-nova;
+    font-display: auto;
     src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_italic_macroman/proximanova-regularit-webfont.eot);
     src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_italic_macroman/proximanova-regularit-webfont.eot?#iefix) format("embedded-opentype"), url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_italic_macroman/proximanova-regularit-webfont.woff) format("woff"), url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_italic_macroman/proximanova-regularit-webfont.ttf) format("truetype"), url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_italic_macroman/proximanova-regularit-webfont.svg#proxima-nova) format("svg");
     font-weight: 400;
@@ -394,12 +452,14 @@ img, video {
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
     @font-face {
         font-family: proxima-nova;
+        font-display: auto;
         src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_italic_macroman/proximanova-regularit-webfont.svg#proxima-nova) format("svg")
     }
 }
 
 @font-face {
     font-family: proxima-nova;
+    font-display: auto;
     src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_bolditalic_macroman/proximanova-boldit-webfont.eot);
     src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_bolditalic_macroman/proximanova-boldit-webfont.eot?#iefix) format("embedded-opentype"), url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_bolditalic_macroman/proximanova-boldit-webfont.woff) format("woff"), url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_bolditalic_macroman/proximanova-boldit-webfont.ttf) format("truetype"), url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_bolditalic_macroman/proximanova-boldit-webfont.svg#proxima-nova) format("svg");
     font-weight: 700;
@@ -409,12 +469,14 @@ img, video {
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
     @font-face {
         font-family: proxima-nova;
+        font-display: auto;
         src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_bolditalic_macroman/proximanova-boldit-webfont.svg#proxima-nova) format("svg")
     }
 }
 
 @font-face {
     font-family: proxima-nova;
+    font-display: auto;
     src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_light_macroman/proximanova-light-webfont.eot);
     src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_light_macroman/proximanova-light-webfont.eot?#iefix) format("embedded-opentype"), url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_light_macroman/proximanova-light-webfont.woff) format("woff"), url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_light_macroman/proximanova-light-webfont.ttf) format("truetype"), url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_light_macroman/proximanova-light-webfont.svg#proxima-nova) format("svg");
     font-weight: 200;
@@ -424,12 +486,14 @@ img, video {
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
     @font-face {
         font-family: proxima-nova;
+        font-display: auto;
         src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_light_macroman/proximanova-light-webfont.svg#proxima-nova) format("svg")
     }
 }
 
 @font-face {
     font-family: proxima-nova;
+    font-display: auto;
     src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_lightitalic_macroman/proximanova-lightit-webfont.eot);
     src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_lightitalic_macroman/proximanova-lightit-webfont.eot?#iefix) format("embedded-opentype"), url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_lightitalic_macroman/proximanova-lightit-webfont.woff) format("woff"), url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_lightitalic_macroman/proximanova-lightit-webfont.ttf) format("truetype"), url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_lightitalic_macroman/proximanova-lightit-webfont.svg#proxima-nova) format("svg");
     font-weight: 200;
@@ -439,6 +503,7 @@ img, video {
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
     @font-face {
         font-family: proxima-nova;
+        font-display: auto;
         src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_lightitalic_macroman/proximanova-lightit-webfont.svg#proxima-nova) format("svg")
     }
 }
@@ -550,7 +615,7 @@ body {
     position: relative;
     background-color: #e5e9ef;
     color: #333;
-    font-family: proxima-nova, "Lucida Grande", "Lucida Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: Helvetica, "Lucida Grande", "Lucida Sans", "Helvetica Neue", Arial, proxima-nova, sans-serif
 }
 
 @media (min-width: 992px) {
@@ -3259,14 +3324,11 @@ label.option {
                                                                         Is Who We Are</a></h2>
                                                                         <div class=content>
                                                                             <div class="media-youtube-video media-youtube-2">
-                                                                                <iframe src=https://www.youtube.com/embed/4xSyF6VDuIM
-                                                                                        height=390 width=640
-                                                                                        title="This Is Who We Are"
-                                                                                        allowfullscreen
-                                                                                        class=media-youtube-player
-                                                                                        frameborder=0>Video of This Is
-                                                                                    Who We Are
-                                                                                </iframe>
+                                                                                <div class="wrapper">
+                                                                                    <div class="youtube" data-embed="4xSyF6VDuIM">
+                                                                                        <div class="play-button"></div>
+                                                                                    </div>
+                                                                                </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -4327,14 +4389,11 @@ label.option {
                                                                 Davis - On The Map</a></h2>
                                                                 <div class=content>
                                                                     <div class="media-youtube-video media-youtube-1">
-                                                                        <iframe src=https://www.youtube.com/embed/WCLKzB0bocc
-                                                                                height=390 width=640
-                                                                                title="UC Davis - On The Map"
-                                                                                allowfullscreen
-                                                                                class=media-youtube-player
-                                                                                frameborder=0>Video of UC Davis - On The
-                                                                            Map
-                                                                        </iframe>
+                                                                        <div class="wrapper">
+                                                                            <div class="youtube" data-embed="WCLKzB0bocc">
+                                                                                <div class="play-button"></div>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -4526,6 +4585,36 @@ label.option {
     </div>
 </div>
 <link href=assets/purified.css rel=stylesheet media=all>
+<script>
+    ( function() {
+
+        var youtube = document.querySelectorAll( ".youtube" );
+
+        for (var i = 0; i < youtube.length; i++) {
+
+            var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/sddefault.jpg";
+
+            var image = new Image();
+            image.src = source;
+            image.addEventListener( "load", function() {
+                youtube[ i ].appendChild( image );
+            }( i ) );
+
+            youtube[i].addEventListener( "click", function() {
+
+                var iframe = document.createElement( "iframe" );
+
+                iframe.setAttribute( "frameborder", "0" );
+                iframe.setAttribute( "allowfullscreen", "" );
+                iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" );
+
+                this.innerHTML = "";
+                this.appendChild( iframe );
+            } );
+        };
+
+    } )();
+</script>
 <script src=assets/jquery.min.js></script>
 <script src=assets/jquery-ui.min.js></script>
 <script src=assets/spuds.js></script>
