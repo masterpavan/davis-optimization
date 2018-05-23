@@ -1,0 +1,15 @@
+{
+  "name": "UCDavis PWA",
+  "short_name": "ucdpwa",
+  "lang": "en-US",
+  "start_url": "index.html",
+  "display": "standalone",
+  "theme_color": "#052f5f",
+  "icons": [
+    {
+      "src": "homescreen.jpg",
+      "sizes": "720x720",
+      "type": "image/jpg"
+    }
+  ]
+}
