@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "ucdavis-bfb75"
+    "default": "ucdavis-bfb75",
+    "amp": "ucdavis-amp",
+    "pwa": "ucdavis-pwa"
   }
 }
