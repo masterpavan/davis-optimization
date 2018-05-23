@@ -22,6 +22,27 @@
     <body>
         <amp-img src="assets/global-header-bg.svg" width="1026" height="112" layout="responsive"></amp-img>
 
+        <amp-sidebar id="sidebar1" layout="nodisplay" side="right">
+            <ul>
+                <li>About Us</li>
+                <li>Admission</li>
+                <li>Academics</li>
+                <li>Research</li>
+                <li>Campus Life</li>
+                <li>News</li>
+            </ul>
+
+            <nav toolbar="(max-width: 767px)" toolbar-target="target-element">
+                <ul>
+                    <li>
+                        <input placeholder="Search..."/>
+                    </li>
+                </ul>
+            </nav>
+        </amp-sidebar>
+
+        <div id="target-element">
+        </div>
     </body>
 
 
