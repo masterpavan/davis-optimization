@@ -9,40 +9,61 @@
             body {
                 background-color: white;
             }
-
-
-
+            amp-img.overlays {
+                position: absolute;
+                top: 30px;
+                left: 70px;
+            }
         </style>
 
         <script async src="https://cdn.ampproject.org/v0.js"></script>
         <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 
+        <script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async></script>
+        <script custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js" async></script>
     </head>
 
     <body>
-        <amp-img src="assets/global-header-bg.svg" width="1026" height="112" layout="responsive"></amp-img>
+            <amp-img src="assets/global-header-bg.svg" width="1026" height="112" layout="responsive"></amp-img>
+            <amp-img class="overlays" src="assets/logo2.svg" width="277" height="45" layout="responsive" >
+            <i-amphtml-sizer style="display: block;width: 277px;height: 45px;"></i-amphtml-sizer>
+            <img decoding="async" class="i-amphtml-fill-content i-amphtml-replaced-content" src="assets/logo2.svg"></amp-img>
 
-        <amp-sidebar id="sidebar1" layout="nodisplay" side="right">
-            <ul>
-                <li>About Us</li>
-                <li>Admission</li>
-                <li>Academics</li>
-                <li>Research</li>
-                <li>Campus Life</li>
-                <li>News</li>
-            </ul>
+        <!-- Start Navbar -->
+        <header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4">
+            <div role="button" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger md-hide lg-hide pr2">☰</div>
+            <!--<amp-img src="../img/components/sidebar-example-logo.png" width="110" height="33" layout="fixed" class="my0 mx-auto" alt="Example logo image"></amp-img>-->
+            <nav class="ampstart-headerbar-nav ampstart-nav xs-hide sm-hide">
+            </nav>
+        </header>
 
-            <nav toolbar="(max-width: 767px)" toolbar-target="target-element">
-                <ul>
-                    <li>
-                        <input placeholder="Search..."/>
+        <!-- Start Sidebar -->
+        <amp-sidebar id="header-sidebar" class="ampstart-sidebar px3 md-hide lg-hide" layout="nodisplay">
+            <div class="flex justify-start items-center ampstart-sidebar-header">
+                <div role="button" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger items-start">✕</div>
+            </div>
+            <nav class="ampstart-sidebar-nav ampstart-nav">
+                <ul class="list-reset m0 p0 ampstart-label">
+                    <li class="ampstart-nav-item ampstart-nav-dropdown relative">
                     </li>
+                    <li class="ampstart-nav-item"><a href="#">About Us</a></li>
+                    <li class="ampstart-nav-item"><a href="#">Admissions</a></li>
+                    <li class="ampstart-nav-item"><a href="#">Academics</a></li>
+                    <li class="ampstart-nav-item"><a href="#">Research</a></li>
+                    <li class="ampstart-nav-item"><a href="#">Campus Life</a></li>
+                    <li class="ampstart-nav-item"><a href="#">News</a></li>
                 </ul>
             </nav>
-        </amp-sidebar>
 
-        <div id="target-element">
-        </div>
+        </amp-sidebar>
+        <!-- End Sidebar -->
+        <!-- End Navbar -->
+
+        <amp-video controls width="1872" height="720" layout="responsive" src="assets/624918722.mp4"
+                   <div fallback>This browser does not support the video element.</div>
+        </amp-video>
+
+
     </body>
 
 
