@@ -7,7 +7,7 @@
 
         <style amp-custom>
             body {
-                background-color: white;
+                background-color: #8e8e8e;
             }
             amp-img.overlays {
                 position: absolute;
@@ -18,13 +18,28 @@
                 width: 80px;
                 height: 80px;
             }
-            div.small{
-                width: 348px;
+            amp-layout.small_left{
+                background-color: white;
+                float: left;
+                margin-top: 1vh;
+                margin-bottom: 1vh;
+                width: 40vw;
                 height: 63px;
             }
-            div.large{
+            amp-layout.small_right{
+                background-color: white;
+                float: right;
+                margin-top: 1vh;
+                margin-bottom: 1vh;
+                width: 40vw;
+                height: 63px;
+            }
+            amp-layout.large{
+                background-color: white;
+                margin-top: 1vh;
+                margin-bottom: 1vh;
                 width: 348px;
-                height: 461px;
+                height: 500px;
             }
             p.trending{
                 position: relative;
@@ -86,6 +101,7 @@
         <div class="large" layout="responsive">
             <h1>Events</h1>
         </div>-->
+        <amp-layout class="large">
             <h1>Trending</h1>
                 <p class="trending">
                     <amp-img class="trending" src="assets/susan-williams-beach-925.jpg" layout="responsive"></amp-img>
@@ -93,22 +109,34 @@
                 </p>
                 <p class="trending">
                     <amp-img class="trending" src="assets/awards-combo7tb.jpg" layout="responsive"></amp-img>
-                    Senate and Federation Will Hono 'Distinguished,' 'Excellent' Work
+                    Senate and Federation Will Honor 'Distinguished,' 'Excellent' Work
                 </p>
                 <p class="trending">
                     <amp-img class="trending" src="assets/susan-williams-beach-925.jpg" layout="responsive"></amp-img>
-                    Can We Better Prepare HEns for Cage-Free Living?
+                    Can We Better Prepare Hens for Cage-Free Living?
                 </p>
                 <p class="trending">
                     <amp-img class="trending" src="assets/carlito-lebrilla-925.jpg" layout="responsive"></amp-img>
                     Lebrilla Wins Senate Research Award
                 </p>
+        </amp-layout>
 
-            <h2>See our location</h2>
-            <h2>Take a virtual tour</h2>
-            <h2>Sign up for more info</h2>
-            <h2>Join our alumni association</h2>
-            <h2>Make a gift to UC Davis</h2>
+            <amp-layout class="small_left">
+                <h2>See our location</h2>
+            </amp-layout>
+            <amp-layout class="small_right">
+                <h2>Take a virtual tour</h2>
+            </amp-layout>
+            <amp-layout class="small_left">
+                <h2>Sign up for more info</h2>
+            </amp-layout>
+            <amp-layout class="small_right">
+                <h2>Join our alumni association</h2>
+            </amp-layout>
+            <amp-layout class="small_left">
+                <h2>Make a gift to UC Davis</h2>
+            </amp-layout>
+
 
 
     </body>
