@@ -5,22 +5,23 @@
     <link rel="" canonical href="https://ucdavis-bfb75.firebaseapp.com">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
+    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+
     <style amp-custom>
         body {
             background-color: #8e8e8e;
         }
-
         amp-img.overlays {
             position: absolute;
             top: 30px;
             left: 70px;
         }
-
-        amp-img.trending {
-            width: 80px;
-            height: 80px;
+        amp-img.badge {
+            width: 146px;
+            height: 146px;
+            margin-left: 5vw;
+            margin-right: 5vw;
         }
-
         amp-layout.small_left {
             background-color: white;
             float: left;
@@ -29,7 +30,6 @@
             width: 40vw;
             height: 63px;
         }
-
         amp-layout.small_right {
             background-color: white;
             float: right;
@@ -38,7 +38,6 @@
             width: 40vw;
             height: 63px;
         }
-
         amp-layout.large {
             background-color: white;
             margin-top: 1vh;
@@ -46,16 +45,26 @@
             width: 348px;
             height: 500px;
         }
-
+        amp-layout.wide {
+            background-color: white;
+            margin-top: 1vh;
+            margin-bottom: 1vh;
+            margin-left: 10vw;
+            margin-right: 10vw;
+            width: 80vw;
+            height: 322px;
+        }
         p.trending {
             position: relative;
         }
-
         .fixedblock {
             max-width: 500px;
             max-height: 110px;
         }
-
+        .fixedblock-majors {
+            max-width: 500px;
+            max-height: 300px;
+        }
         .pic-text {
             display: block;
             background: #fff;
@@ -65,12 +74,10 @@
             height: 100px;
             position: relative;
         }
-
         .pic-text amp-img {
             float: left;
             margin-right: 16px;
         }
-
         amp-fit-text.text {
             margin: 8px 8px;
         }
@@ -83,7 +90,6 @@
         -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
         animation: -amp-start 8s steps(1, end) 0s 1 normal both
     }
-
     @-webkit-keyframes -amp-start {
         from {
             visibility: hidden
@@ -92,7 +98,6 @@
             visibility: visible
         }
     }
-
     @-moz-keyframes -amp-start {
         from {
             visibility: hidden
@@ -101,7 +106,6 @@
             visibility: visible
         }
     }
-
     @-ms-keyframes -amp-start {
         from {
             visibility: hidden
@@ -110,7 +114,6 @@
             visibility: visible
         }
     }
-
     @-o-keyframes -amp-start {
         from {
             visibility: hidden
@@ -119,7 +122,6 @@
             visibility: visible
         }
     }
-
     @keyframes -amp-start {
         from {
             visibility: hidden
@@ -189,7 +191,6 @@
 <!--<div class="large" layout="responsive">
     <h1>Trending</h1>
 </div>
-
 <div class="large" layout="responsive">
     <h1>Events</h1>
 </div>-->
@@ -215,7 +216,7 @@
     </amp-layout>
     <amp-layout class="fixedblock" width="2" height="1" layout="responsive">
         <div class="pic-text">
-            <amp-img src="assets/susan-williams-beach-925.jpg" width="100" height="100"></amp-img>
+            <amp-img src="assets/hen_housing_cage_freeedit.jpg" width="100" height="100"></amp-img>
 
             <amp-fit-text class="text" width="400" height="100" layout="responsive" max-font-size="16">
                 Can We Better Prepare Hens for Cage-Free Living?
@@ -233,21 +234,134 @@
     </amp-layout>
 </amp-layout>
 
+
+
+
+
+
+<amp-layout class="large">
+    <h1>Latest Majors Blog Post</h1>
+    <amp-layout class="fixedblock-majors" width="2" height="1" layout="responsive">
+        <div class="pic-text">
+            <amp-img src="assets/thumbnail-ext.jpg" width="100" height="120"></amp-img>
+
+            <amp-fit-text class="text" width="400" height="150" layout="responsive" max-font-size="16">
+                5 Great Government Jobs and How to Prepare for Them
+            </amp-fit-text>
+        </div>
+    </amp-layout>
+    <amp-layout class="fixedblock-majors" width="2" height="1" layout="responsive">
+        <div class="pic-text">
+            <amp-img src="assets/dwib-thumbnail.jpg" width="100" height="120"></amp-img>
+
+            <amp-fit-text class="text" width="400" height="150" layout="responsive" max-font-size="16">
+                Femal-Majority Student Clubs Offer Support and Career Development
+            </amp-fit-text>
+        </div>
+    </amp-layout>
+    <amp-layout class="fixedblock-majors" width="2" height="1" layout="responsive">
+        <div class="pic-text">
+            <amp-img src="assets/as-thumbnail.jpg" width="100" height="120"></amp-img>
+
+            <amp-fit-text class="text" width="400" height="150" layout="responsive" max-font-size="16">
+                American Studies Majors Turn Passions to Professions
+            </amp-fit-text>
+        </div>
+    </amp-layout>
+</amp-layout>
+
+
+
+
+
+
+
+
+
+
 <amp-layout class="small_left">
-    <h2>See our location</h2>
+    <amp-layout class="fixedblock" layout="responsive">
+        <div class="pic-text">
+            <amp-img src="assets/where-is-uc-davis-icon_0.png" width="63" height="63"></amp-img>
+
+            <amp-fit-text class="text" layout="responsive" max-font-size="16">
+                See our location
+            </amp-fit-text>
+        </div>
+    </amp-layout>
 </amp-layout>
 <amp-layout class="small_right">
-    <h2>Take a virtual tour</h2>
+    <amp-layout class="fixedblock" layout="responsive">
+        <div class="pic-text">
+            <amp-img src="assets/vtour-redbud.png" width="63" height="63"></amp-img>
+
+            <amp-fit-text class="text" layout="responsive" max-font-size="16">
+                Take a virtual tour
+            </amp-fit-text>
+        </div>
+    </amp-layout>
 </amp-layout>
 <amp-layout class="small_left">
-    <h2>Sign up for more info</h2>
+    <amp-layout class="fixedblock" layout="responsive">
+        <div class="pic-text">
+            <amp-img src="assets/mail-poppy.png" width="63" height="63"></amp-img>
+
+            <amp-fit-text class="text" layout="responsive" max-font-size="16">
+                Sign up for more info
+            </amp-fit-text>
+        </div>
+    </amp-layout>
 </amp-layout>
 <amp-layout class="small_right">
-    <h2>Join our alumni association</h2>
+    <amp-layout class="fixedblock" layout="responsive">
+        <div class="pic-text">
+            <amp-img src="assets/banner-gold.png" width="63" height="63"></amp-img>
+
+            <amp-fit-text class="text" layout="responsive" max-font-size="16">
+                Join our alumni association
+            </amp-fit-text>
+        </div>
+    </amp-layout>
 </amp-layout>
 <amp-layout class="small_left">
-    <h2>Make a gift to UC Davis</h2>
+    <amp-layout class="fixedblock" layout="responsive">
+        <div class="pic-text">
+            <amp-img src="assets/gift-grass.png" width="63" height="63"></amp-img>
+
+            <amp-fit-text class="text" layout="responsive" max-font-size="16">
+                Make a gift to UC Davis
+            </amp-fit-text>
+        </div>
+    </amp-layout>
 </amp-layout>
+
+
+
+<amp-layout class="wide"layout="responsive">
+        <amp-img class="badge" src="assets/badge-veterinary_0.png" width="146" height="146" padding="20"></amp-img>
+        <amp-img class="badge" src="assets/uc-davis-ranked-six-public-university.png" width="146" height="146" padding="20"></amp-img>
+        <amp-img class="badge" src="assets/ag-ranking-badge91916_0.png" width="146" height="146" padding="20"></amp-img>
+</amp-layout>
+
+<amp-layout class="wide"layout="responsive">
+    <h1>Follow UC Davis</h1>
+    <amp-img src="assets/icons-social-follow.svg" layout="responsive"></amp-img>
+</amp-layout>
+
+
+
+    <amp-youtube
+            id="Six Reasons Why Living in Davis Will Make Your Life Better"
+            data-videoid="rd0hbjWTlNE"
+            width="648"
+            height="364">
+        <!--<amp-img
+                src="https://i.ytimg.com/vi/Wm1fWz-7nLQ/hqdefault_live.jpg"
+                placeholder
+                layout="fill"-->
+        />
+    </amp-youtube>
+
 
 
 </body>
