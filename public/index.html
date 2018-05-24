@@ -9,7 +9,7 @@
 
     <style amp-custom>
         body {
-            background-color: #8e8e8e;
+            background-color: #e5e9ef;
         }
         amp-img.overlays {
             position: absolute;
@@ -38,12 +38,10 @@
             width: 40vw;
             height: 63px;
         }
-        amp-layout.large {
+        div.large {
             background-color: white;
-            margin-top: 1vh;
-            margin-bottom: 1vh;
-            width: 348px;
-            height: 500px;
+            margin: 0 2.5vw 2.5vw 2.5vw;
+            padding: 16px;
         }
         amp-layout.wide {
             background-color: white;
@@ -59,18 +57,18 @@
         }
         .fixedblock {
             max-width: 500px;
-            max-height: 110px;
+            max-height: 102px;
+            margin-bottom: 1em;
         }
         .fixedblock-majors {
             max-width: 500px;
-            max-height: 300px;
+            max-height: 102px;
         }
         .pic-text {
             display: block;
             background: #fff;
             border-radius: 2px;
             border: 1px solid #cdcdcd;
-            margin: 8px;
             height: 100px;
             position: relative;
         }
@@ -81,10 +79,27 @@
         amp-fit-text.text {
             margin: 8px 8px;
         }
+
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .leftgrid {
+            height: 600px;
+            flex-basis: ;
+            background: blue;
+        }
+
+        .rightgrid {
+            height: 600px;
+            background: green;
+        }
     </style>
 
     <script async src="https://cdn.ampproject.org/v0.js"></script>
-    <style amp-boilerplate>body {
+    <style amp-boilerplate>
+        body {
         -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
         -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
         -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
@@ -194,7 +209,7 @@
 <div class="large" layout="responsive">
     <h1>Events</h1>
 </div>-->
-<amp-layout class="large">
+<div class="large">
     <h1>Trending</h1>
     <amp-layout class="fixedblock" width="2" height="1" layout="responsive">
         <div class="pic-text">
@@ -232,7 +247,7 @@
             </amp-fit-text>
         </div>
     </amp-layout>
-</amp-layout>
+</div>
 
 
 
@@ -243,7 +258,7 @@
     <h1>Latest Majors Blog Post</h1>
     <amp-layout class="fixedblock-majors" width="2" height="1" layout="responsive">
         <div class="pic-text">
-            <amp-img src="assets/thumbnail-ext.jpg" width="100" height="120"></amp-img>
+            <amp-img src="assets/thumbnail-ext.jpg" width="75" height="100"></amp-img>
 
             <amp-fit-text class="text" width="400" height="150" layout="responsive" max-font-size="16">
                 5 Great Government Jobs and How to Prepare for Them
@@ -252,7 +267,7 @@
     </amp-layout>
     <amp-layout class="fixedblock-majors" width="2" height="1" layout="responsive">
         <div class="pic-text">
-            <amp-img src="assets/dwib-thumbnail.jpg" width="100" height="120"></amp-img>
+            <amp-img src="assets/dwib-thumbnail.jpg" width="75" height="100"></amp-img>
 
             <amp-fit-text class="text" width="400" height="150" layout="responsive" max-font-size="16">
                 Femal-Majority Student Clubs Offer Support and Career Development
@@ -261,7 +276,7 @@
     </amp-layout>
     <amp-layout class="fixedblock-majors" width="2" height="1" layout="responsive">
         <div class="pic-text">
-            <amp-img src="assets/as-thumbnail.jpg" width="100" height="120"></amp-img>
+            <amp-img src="assets/as-thumbnail.jpg" width="75" height="100"></amp-img>
 
             <amp-fit-text class="text" width="400" height="150" layout="responsive" max-font-size="16">
                 American Studies Majors Turn Passions to Professions
