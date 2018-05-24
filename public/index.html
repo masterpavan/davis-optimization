@@ -54,6 +54,23 @@
             width: 80vw;
             height: 322px;
         }
+        amp-layout.bage-text {
+            height = 100px;
+            width = 20vw;
+        }
+        amp-layout.footer {
+            background-color: #1a3e68;
+            height: 620px;
+            color: white;
+            margin-top: 20px;
+        }
+        amp-layout.footer-block {
+            background-color: #1a3e68;
+            width: 282px;
+            height: 308px;
+            color: white;
+            float: left;
+        }
         p.trending {
             position: relative;
         }
@@ -80,6 +97,12 @@
         }
         amp-fit-text.text {
             margin: 8px 8px;
+        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
         }
     </style>
 
@@ -341,10 +364,15 @@
         <amp-img class="badge" src="assets/badge-veterinary_0.png" width="146" height="146" padding="20"></amp-img>
         <amp-img class="badge" src="assets/uc-davis-ranked-six-public-university.png" width="146" height="146" padding="20"></amp-img>
         <amp-img class="badge" src="assets/ag-ranking-badge91916_0.png" width="146" height="146" padding="20"></amp-img>
+    <amp-layout class="bage-text">
+        <p>Ranked 1st in the world for veterinary medicine</p>
+        <p>Ranked 6th nationally for public universities</p>
+        <p>Ranked 1st nationally in agriculture</p>
+    </amp-layout>
 </amp-layout>
 
 <amp-layout class="wide"layout="responsive">
-    <h1>Follow UC Davis</h1>
+    <h1 class="center">Follow UC Davis</h1>
     <amp-img src="assets/icons-social-follow.svg" layout="responsive"></amp-img>
 </amp-layout>
 
@@ -354,15 +382,63 @@
             id="Six Reasons Why Living in Davis Will Make Your Life Better"
             data-videoid="rd0hbjWTlNE"
             width="648"
-            height="364">
-        <!--<amp-img
-                src="https://i.ytimg.com/vi/Wm1fWz-7nLQ/hqdefault_live.jpg"
-                placeholder
-                layout="fill"-->
-        />
+            height="364"
+            class="center">
     </amp-youtube>
 
 
+
+
+<!-- Begin footer -->
+<amp-layout class="footer">
+    <amp-layout class="footer-block">
+        <h1> UC Davis</h1>
+            <p>UC Davis Health</p>
+            <p>Veterinary Medicine</p>
+            <p>UC Davis Extension</p>
+            <p>UC Davis Stores</p>
+            <p>UC Davis Arts</p>
+            <p>UC Davis Mobile Apps</p>
+            <p>Hiring UC Davis Students & Alumni</p>
+    </amp-layout>
+    <amp-layout class="footer-block">
+        <h1>Students</h1>
+            <p>Orientation</p>
+            <p>Student Resources</p>
+            <p>Graduate Students</p>
+            <p>Commencement</p>
+            <p>Internship And Career Center</p>
+            <p>Jobs And Internships</p>
+            <p>Parents</p>
+    </amp-layout>
+    <amp-layout class="footer-block">
+        <h1>Alumni</h1>
+            <p>Cal Aggie Alumni Association</p>
+            <p>Career Connections</p>
+            <p>Member Benefits</p>
+            <p>UC Davis Magazine</p>
+            <p>Transcripts</p>
+    </amp-layout>
+    <amp-layout class="footer-block">
+        <h1>Faculty</h1>
+            <p>Resources</p>
+            <p>Teaching</p>
+            <p>Research</p>
+            <p>Benefits</p>
+            <p>Faculty Governancy</p>
+    </amp-layout>
+    <amp-layout class="footer-block">
+        <h1>Staff</h1>
+            <p>Resources</p>
+            <p>Training</p>
+            <p>Benefits</p>
+            <p>Jobs</p>
+            <p>Staff Assembly</p>
+    </amp-layout>
+<!-- End footer -->
+
+
+</amp-layout>
 
 </body>
 
