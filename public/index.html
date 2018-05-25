@@ -16,7 +16,13 @@
             font-weight: 400;
             font-style: normal
         }
-
+        @font-face {
+            font-family: proxima-nova;
+            src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_bold_macroman/proximanova-bold-webfont.eot);
+            src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_bold_macroman/proximanova-bold-webfont.eot?#iefix) format("embedded-opentype"), url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_bold_macroman/proximanova-bold-webfont.woff) format("woff"), url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_bold_macroman/proximanova-bold-webfont.ttf) format("truetype"), url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_bold_macroman/proximanova-bold-webfont.svg#proxima-nova) format("svg");
+            font-weight: 700;
+            font-style: normal
+        }
         body {
             background-color: #e5e9ef;
             font-family: "proxima-nova", Helvetica, Arial, "Lucida Grande", "Lucida Sans", "Helvetica Neue",  sans-serif;
@@ -35,6 +41,56 @@
             display: grid;
             justify-content: center;
             margin-top: 42px;
+            text-align: center;
+            color: white;
+            font-weight: 700;
+        }
+        .video span:first-child {
+            display: block;
+            font-size: 2em;
+            line-height: 1;
+        }
+        .video span:nth-child(2) {
+            display: block;
+            font-size: 1.25em;
+            line-height: 1;
+        }
+        .circles {
+            margin-bottom: 2em;
+            background: #fff;
+            margin-top: -51px;
+        }
+        .circles div {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+        .circles a {
+            display: block;
+            padding: 1em;
+            text-decoration: none;
+            color: #003570;
+            font-weight: 700;
+        }
+
+        h2.pane-title {
+            box-sizing: border-box;
+            height: 100px;
+            padding: 1.5em 0 0 60px;
+            background-image: url(assets/title-icons.svg);
+            background-repeat: no-repeat;
+            margin: -16px 0 0 -16px;
+        }
+        h2.trending {
+            background-position: 0 -500px;
+        }
+        h2.majors {
+            background-position: 0 -200px;
+        }
+
+        div.overlays {
+            position: relative;
+            top: -175px
         }
         amp-img.overlays {
             position: absolute;
@@ -155,6 +211,7 @@
             padding: 1em;
             height: 95px;
             position: relative;
+            font-weight: 700;
         }
         .pic-text amp-img, .pic-text-actions amp-img {
             float: left;
@@ -168,16 +225,15 @@
         amp-fit-text.text {
             margin: 8px 8px;
         }
-        .center {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%;
-        }
-
-        .welcomeContainer, amp-layout.community {
+        .center, .social-follow {
             margin: 0 2.5vw 2em 2.5vw;
         }
+
+        .welcomeContainer, amp-layout.community  {
+            margin: 0 2.5vw 2em 2.5vw;
+        }
+
+
 
         .seven {
             color: #fff;
@@ -192,6 +248,103 @@
             font-weight: 700;
             text-align: center;
         }
+
+        .circles amp-layout {
+            border: 3px solid #e5e9ef;
+            border-radius: 50%;
+            height: 60px;
+            width: 60px;
+            background-size: 356px 43px;
+            margin: 0;
+            box-sizing: content-box;
+            background-image: url(assets/icons-priority-links.svg);
+            background-repeat: no-repeat;
+        }
+        .circlelink--badge {background-position: 0 center;}
+        .circlelink--hat {background-position: -60px center;}
+        .circlelink--dollar {background-position: -120px center;}
+        .circlelink--calendar {background-position: -180px center;}
+        .circlelink--people {background-position: -240px center;}
+        .circlelink--check {background-position: -300px center;}
+
+        footer {
+            margin-top: 2em;
+            padding: 4em 1em 6em;
+            background-color: #002855;
+            color: #fff;
+        }
+
+        footer ul {
+            margin: 0;
+            padding: 0;
+        }
+        footer li {
+            margin: 0;
+            padding: .25em 16px;
+            list-style: none;
+            transition: all .2s ease-in-out;
+            font-size: 16px;
+        }
+        footer li:hover {
+            background: #1a3e68;
+        }
+
+        footer h2 {
+            padding-left: 16px;
+        }
+        .footerlogo amp-img {
+            max-width: 200px;
+            margin-bottom: 1em;
+            padding-left: 1em;
+        }
+
+        .social-follow__icon {
+            text-indent: 110%;
+            white-space: nowrap;
+            overflow: hidden;
+            display: inline-block;
+            height: 50px;
+            width: 50px;
+            background-image: url(assets/icons-social-follow.svg);
+            background-repeat: no-repeat;
+            transition: opacity .35s ease-in-out;
+            background-size: cover;
+            opacity: 1;
+        }
+        .social-follow .pane-title {
+            color: #7f93ae;
+            font-weight: 700;
+        }
+        .social-follow ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+        .pack {
+            display: flex;
+            -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .pack>* {
+             display: block;
+             -ms-flex-preferred-size: 0;
+             flex-basis: 0;
+             -webkit-box-flex: 1;
+             -ms-flex-positive: 1;
+             flex-grow: 1;
+             min-width: 0;
+         }
+
+        .social-follow--facebook { background-position: 0 0; }
+        .social-follow--twitter{ background-position: -50px 0; }
+        .social-follow--instagram { background-position: -100px 0; }
+        .social-follow--youtube{ background-position: -150px 0; }
+        .social-follow--googleplus { background-position: -200px 0; }
     </style>
 
     <script async src="https://cdn.ampproject.org/v0.js"></script>
@@ -300,10 +453,45 @@
 <!-- End Navbar -->
 <div class="video">
 
-    <amp-video width="780" height="300" layout="intrinsic" src="assets/624918722.mp4" autoplay loop noaudio>
+    <amp-video width="780" height="300" layout="fixed" src="assets/624918722.mp4" autoplay loop noaudio>
         <div fallback>This browser does not support the video element.</div>
     </amp-video>
+    <div class="overlays">
+        <span>EXPLORE</span>
+        <span>OUR CAMPUS!</span>
+    </div>
 
+</div>
+<div class="circles">
+    <div class="circles--top">
+        <a href="">
+            <amp-layout class="circlelink--badge" width="1" height="1" layout="intrinsic"></amp-layout>
+            <div>MAJORS</div>
+        </a>
+        <a href="">
+            <amp-layout class="circlelink--hat" width="1" height="1" layout="intrinsic"></amp-layout>
+            <div>ACADEMICS</div>
+        </a>
+        <a href="">
+            <amp-layout class="circlelink--dollar" width="1" height="1" layout="intrinsic"></amp-layout>
+            <div>COST</div>
+        </a>
+    </div>
+    <div class="circles--bottom">
+        <a href="">
+            <amp-layout class="circlelink--calendar" width="1" height="1" layout="intrinsic"></amp-layout>
+            <div>CALENDAR</div>
+        </a>
+        <a href="">
+            <amp-layout class="circlelink--people" width="1" height="1" layout="intrinsic"></amp-layout>
+            <div>VISIT</div>
+        </a>
+        <a href="">
+            <amp-layout class="circlelink--check" width="1" height="1" layout="intrinsic"></amp-layout>
+            <div>APPLY</div>
+        </a>
+
+    </div>
 </div>
 
 
@@ -314,7 +502,7 @@
     <h1>Events</h1>
 </div>-->
 <div class="large">
-    <h1>Trending</h1>
+    <h2 class="pane-title trending">Trending</h2>
     <amp-layout class="fixedblock" width="2" height="1" layout="responsive">
         <div class="pic-text">
             <amp-img src="assets/susan-williams-beach-925.jpg" width="100" height="100"></amp-img>
@@ -354,7 +542,7 @@
 </div>
 
 <div class="large">
-    <h1>Latest Majors Blog Post</h1>
+    <h2 class="pane-title majors">Latest Majors Blog Posts</h2>
     <amp-layout class="fixedblock-majors" width="2" height="1" layout="responsive">
         <div class="pic-text">
             <amp-img src="assets/thumbnail-ext.jpg" width="75" height="100"></amp-img>
@@ -507,10 +695,26 @@
     <amp-img src="assets/20130927_buzz_154.jpg" width="1000" height="563" layout="responsive"></amp-img>
 </amp-carousel>
 
-<amp-layout class="fixedblock-badge" width="2" height="1" layout="responsive">
-    <h1 class="center">Follow UC Davis</h1>
-    <amp-img src="assets/icons-social-follow.svg" layout="responsive"></amp-img>
-</amp-layout>
+<div class="social-follow">
+    <h3 class="pane-title">Follow UC Davis</h3>
+    <ul class="pack">
+        <li class="pack__item">
+            <a class="social-follow__icon social-follow--facebook" title="Facebook" href="https://www.facebook.com/UCDavis">Follow on Facebook</a>
+        </li>
+        <li class="pack__item">
+            <a class="social-follow__icon social-follow--twitter" title="Twitter" href="https://twitter.com/ucdavis">Follow on Twitter</a>
+        </li>
+        <li class="pack__item">
+            <a class="social-follow__icon social-follow--instagram" title="Instagram" href="https://instagram.com/ucdavis">Follow on Instagram</a>
+        </li>
+        <li class="pack__item">
+            <a class="social-follow__icon social-follow--youtube" title="YouTube" href="http://www.youtube.com/ucdavis">Follow on YouTube</a>
+        </li>
+        <li class="pack__item">
+            <a class="social-follow__icon social-follow--googleplus" title="Google Plus" href="https://plus.google.com/+ucdavis/posts">Follow on Google Plus</a>
+        </li>
+    </ul>
+</div>
 
 
 
@@ -519,62 +723,70 @@
             data-videoid="rd0hbjWTlNE"
             width="648"
             height="364"
-            class="center">
+            class="center"
+            layout="responsive"
+    >
     </amp-youtube>
 
 
 
 
 <!-- Begin footer -->
-<amp-layout class="footer">
-    <amp-layout class="footer-block">
-        <h1> UC Davis</h1>
-            <p>UC Davis Health</p>
-            <p>Veterinary Medicine</p>
-            <p>UC Davis Extension</p>
-            <p>UC Davis Stores</p>
-            <p>UC Davis Arts</p>
-            <p>UC Davis Mobile Apps</p>
-            <p>Hiring UC Davis Students & Alumni</p>
-    </amp-layout>
-    <amp-layout class="footer-block">
-        <h1>Students</h1>
-            <p>Orientation</p>
-            <p>Student Resources</p>
-            <p>Graduate Students</p>
-            <p>Commencement</p>
-            <p>Internship And Career Center</p>
-            <p>Jobs And Internships</p>
-            <p>Parents</p>
-    </amp-layout>
-    <amp-layout class="footer-block">
-        <h1>Alumni</h1>
-            <p>Cal Aggie Alumni Association</p>
-            <p>Career Connections</p>
-            <p>Member Benefits</p>
-            <p>UC Davis Magazine</p>
-            <p>Transcripts</p>
-    </amp-layout>
-    <amp-layout class="footer-block">
-        <h1>Faculty</h1>
-            <p>Resources</p>
-            <p>Teaching</p>
-            <p>Research</p>
-            <p>Benefits</p>
-            <p>Faculty Governancy</p>
-    </amp-layout>
-    <amp-layout class="footer-block">
-        <h1>Staff</h1>
-            <p>Resources</p>
-            <p>Training</p>
-            <p>Benefits</p>
-            <p>Jobs</p>
-            <p>Staff Assembly</p>
-    </amp-layout>
-<!-- End footer -->
+<footer>
+    <div class="footerlogo">
+        <amp-img src="assets/uc-logo-gold.svg" width="100" height="16" layout="responsive"></amp-img>
+    </div>
+        <ul>
+
+            <li>UC Davis Health</li>
+            <li>Veterinary Medicine</li>
+            <li>UC Davis Extension</li>
+            <li>UC Davis Stores</li>
+            <li>UC Davis Arts</li>
+            <li>UC Davis Mobile Apps</li>
+            <li>Hiring UC Davis Students & Alumni</li>
+        </ul>
+        <h2>Students</h2>
+        <ul>
+
+            <li>Orientation</li>
+            <li>Student Resources</li>
+            <li>Graduate Students</li>
+            <li>Commencement</li>
+            <li>Internship And Career Center</li>
+            <li>Jobs And Internships</li>
+            <li>Parents</li>
+        </ul>
+        <h2>Alumni</h2>
+        <ul>
+
+            <li>Cal Aggie Alumni Association</li>
+            <li>Career Connections</li>
+            <li>Member Benefits</li>
+            <li>UC Davis Magazine</li>
+            <li>Transcripts</li>
+        </ul>
+        <h2>Faculty</h2>
+        <ul>
+
+            <li>Resources</li>
+            <li>Teaching</li>
+            <li>Research</li>
+            <li>Benefits</li>
+            <li>Faculty Governancy</li>
+        </ul>
+        <h2>Staff</h2>
+        <ul>
+
+        <li>Resources</li>
+            <li>Training</li>
+            <li>Benefits</li>
+            <li>Jobs</li>
+            <li>Staff Assembly</li>
+        </ul>
 
 
-</amp-layout>
+</footer>
 
 </body>
 
