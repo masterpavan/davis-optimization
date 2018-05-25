@@ -6,55 +6,84 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
     <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+    <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
 
     <style amp-custom>
+        @font-face {
+            font-family: proxima-nova;
+            src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_regular_macroman/proximanova-regular-webfont.eot);
+            src: url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_regular_macroman/proximanova-regular-webfont.eot?#iefix) format("embedded-opentype"), url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_regular_macroman/proximanova-regular-webfont.woff) format("woff"), url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_regular_macroman/proximanova-regular-webfont.ttf) format("truetype"), url(https://campusfont.ucdavis.edu/proxima-nova/proximanova_regular_macroman/proximanova-regular-webfont.svg#proxima-nova) format("svg");
+            font-weight: 400;
+            font-style: normal
+        }
+
         body {
             background-color: #e5e9ef;
+            font-family: "proxima-nova", Helvetica, Arial, "Lucida Grande", "Lucida Sans", "Helvetica Neue",  sans-serif;
+        }
+        .header-container {
+            position: fixed;
+            top:0;
+            width: 100%;
+            z-index: 99;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+        }
+        .video {
+            display: grid;
+            justify-content: center;
+            margin-top: 42px;
         }
         amp-img.overlays {
             position: absolute;
-            top: 30px;
-            left: 70px;
+            top: 11px;
+            left: 50px;
         }
-        amp-img.badge {
-            width: 146px;
-            height: 146px;
-            margin-left: 5vw;
-            margin-right: 5vw;
+        header.overlays {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background: #fff;
+            height: 42px;
+            width: 42px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
-        amp-layout.small_left {
+
+        header.overlays:hover {
+            cursor: pointer;
+        }
+
+        amp-img.background{
+            width: 2000px;
+            height: 160px;
+            margin-top: -59px;
+            margin-right: -237px;
+        }
+        div.small {
             background-color: white;
-            float: left;
-            margin-top: 1vh;
-            margin-bottom: 1vh;
-            width: 40vw;
-            height: 63px;
+            margin: 0 2.5vw 2em 2.5vw;
         }
-        amp-layout.small_right {
-            background-color: white;
-            float: right;
-            margin-top: 1vh;
-            margin-bottom: 1vh;
-            width: 40vw;
-            height: 63px;
-        }
+
         div.large {
             background-color: white;
-            margin: 0 2.5vw 2.5vw 2.5vw;
+            margin: 0 2.5vw 2em 2.5vw;
             padding: 16px;
         }
+
         amp-layout.wide {
             background-color: white;
             margin-top: 1vh;
             margin-bottom: 1vh;
             margin-left: 10vw;
             margin-right: 10vw;
-            width: 80vw;
-            height: 322px;
         }
         amp-layout.bage-text {
-            height = 100px;
-            width = 20vw;
+            height: 100px;
+            width: 20vw;
         }
         amp-layout.footer {
             background-color: #1a3e68;
@@ -80,18 +109,61 @@
         .fixedblock-majors {
             max-width: 500px;
             max-height: 102px;
+            margin-bottom: 1em;
+        }
+        .fixedblock-actions {
+            max-width: 500px;
+            max-height: 95px;
+            margin-bottom: 1em;
+        }
+
+        .fixedblock-badge {
+
+            margin: 0 2.5vw 2em 2.5vw;
+            max-width: 500px;
+            margin-bottom: 1em;
         }
         .pic-text {
             display: block;
             background: #fff;
             border-radius: 2px;
-            border: 1px solid #cdcdcd;
             height: 100px;
             position: relative;
         }
-        .pic-text amp-img {
+        .pic-text-community {
+            display: flex;
+            background: #fff;
+            border-radius: 2px;
+            position: relative;
+            align-items: center;
+        }
+        .pic-text-badge {
+            display: flex;
+            border-radius: 2px;
+            position: relative;
+            align-items: center;
+        }
+        .pic-text-badge amp-img {
+            margin-right: 1em;
+            max-width: 150px;
+        }
+        .pic-text-actions {
+            display: block;
+            background: #fff;
+            border-radius: 2px;
+            box-sizing: border-box;
+            padding: 1em;
+            height: 95px;
+            position: relative;
+        }
+        .pic-text amp-img, .pic-text-actions amp-img {
             float: left;
             margin-right: 16px;
+        }
+
+        .pix-text-community .text {
+            float: left;
+            padding:.5em 5%;
         }
         amp-fit-text.text {
             margin: 8px 8px;
@@ -103,20 +175,22 @@
             width: 50%;
         }
 
-        .grid {
-            display: flex;
-            flex-wrap: wrap;
+        .welcomeContainer, amp-layout.community {
+            margin: 0 2.5vw 2em 2.5vw;
         }
 
-        .leftgrid {
-            height: 600px;
-            flex-basis: ;
-            background: blue;
-        }
-
-        .rightgrid {
-            height: 600px;
-            background: green;
+        .seven {
+            color: #fff;
+            background-color: #642667;
+            font-size: 1.5625rem;
+            line-height: 1.4;
+            float: none;
+            width: 40px;
+            margin-right: .25em;
+            margin-bottom: .5em;
+            padding: 0 .25em;
+            font-weight: 700;
+            text-align: center;
         }
     </style>
 
@@ -183,20 +257,24 @@
 </head>
 
 <body>
-<amp-img src="assets/global-header-bg.svg" width="1026" height="112" layout="responsive"></amp-img>
-<amp-img class="overlays" src="assets/logo2.svg" width="277" height="45" layout="responsive">
-    <i-amphtml-sizer style="display: block;width: 277px;height: 45px;"></i-amphtml-sizer>
-    <img decoding="async" class="i-amphtml-fill-content i-amphtml-replaced-content" src="assets/logo2.svg"></amp-img>
+<amp-layout class="header-container" height="42" >
+    <div class="header">
+        <amp-img class="background" src="assets/global-header-bg.svg" width="2000" height="160"
+                 ></amp-img>
+        <amp-img class="overlays" src="assets/logo2.svg" width="123" height="20" layout="fixed"></amp-img>
 
-<!-- Start Navbar -->
-<header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4">
-    <div role="button" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger md-hide lg-hide pr2">
-        ☰
+
+        <!-- Start Navbar -->
+        <header class="overlays" on="tap:header-sidebar.toggle">
+            <div role="button" tabindex="0" class="ampstart-navbar-trigger md-hide lg-hide pr2">
+                ☰
+            </div>
+            <!--<amp-img src="../img/components/sidebar-example-logo.png" width="110" height="33" layout="fixed" class="my0 mx-auto" alt="Example logo image"></amp-img>-->
+            <nav class="ampstart-headerbar-nav ampstart-nav xs-hide sm-hide">
+            </nav>
+        </header>
     </div>
-    <!--<amp-img src="../img/components/sidebar-example-logo.png" width="110" height="33" layout="fixed" class="my0 mx-auto" alt="Example logo image"></amp-img>-->
-    <nav class="ampstart-headerbar-nav ampstart-nav xs-hide sm-hide">
-    </nav>
-</header>
+</amp-layout>
 
 <!-- Start Sidebar -->
 <amp-sidebar id="header-sidebar" class="ampstart-sidebar px3 md-hide lg-hide" layout="nodisplay">
@@ -220,10 +298,13 @@
 </amp-sidebar>
 <!-- End Sidebar -->
 <!-- End Navbar -->
+<div class="video">
 
-<amp-video controls width="1872" height="720" layout="responsive" src="assets/624918722.mp4"
-<div fallback>This browser does not support the video element.</div>
-</amp-video>
+    <amp-video width="780" height="300" layout="intrinsic" src="assets/624918722.mp4" autoplay loop noaudio>
+        <div fallback>This browser does not support the video element.</div>
+    </amp-video>
+
+</div>
 
 
 <!--<div class="large" layout="responsive">
@@ -272,18 +353,13 @@
     </amp-layout>
 </div>
 
-
-
-
-
-
-<amp-layout class="large">
+<div class="large">
     <h1>Latest Majors Blog Post</h1>
     <amp-layout class="fixedblock-majors" width="2" height="1" layout="responsive">
         <div class="pic-text">
             <amp-img src="assets/thumbnail-ext.jpg" width="75" height="100"></amp-img>
 
-            <amp-fit-text class="text" width="400" height="150" layout="responsive" max-font-size="16">
+            <amp-fit-text class="text" width="400" height="100" layout="responsive" max-font-size="16">
                 5 Great Government Jobs and How to Prepare for Them
             </amp-fit-text>
         </div>
@@ -292,7 +368,7 @@
         <div class="pic-text">
             <amp-img src="assets/dwib-thumbnail.jpg" width="75" height="100"></amp-img>
 
-            <amp-fit-text class="text" width="400" height="150" layout="responsive" max-font-size="16">
+            <amp-fit-text class="text" width="400" height="100" layout="responsive" max-font-size="16">
                 Femal-Majority Student Clubs Offer Support and Career Development
             </amp-fit-text>
         </div>
@@ -301,92 +377,137 @@
         <div class="pic-text">
             <amp-img src="assets/as-thumbnail.jpg" width="75" height="100"></amp-img>
 
-            <amp-fit-text class="text" width="400" height="150" layout="responsive" max-font-size="16">
+            <amp-fit-text class="text" width="400" height="100" layout="responsive" max-font-size="16">
                 American Studies Majors Turn Passions to Professions
             </amp-fit-text>
         </div>
     </amp-layout>
-</amp-layout>
+</div>
 
 
-
-
-
-
-
-
-
-
-<amp-layout class="small_left">
-    <amp-layout class="fixedblock" layout="responsive">
-        <div class="pic-text">
+<div class="small">
+    <amp-layout class="fixedblock-actions" layout="responsive" width="2" height="1">
+        <div class="pic-text-actions">
             <amp-img src="assets/where-is-uc-davis-icon_0.png" width="63" height="63"></amp-img>
 
-            <amp-fit-text class="text" layout="responsive" max-font-size="16">
+            <amp-fit-text class="text" width="400" height="63" layout="responsive" max-font-size="16">
                 See our location
             </amp-fit-text>
         </div>
     </amp-layout>
-</amp-layout>
-<amp-layout class="small_right">
-    <amp-layout class="fixedblock" layout="responsive">
-        <div class="pic-text">
+</div>
+<div class="small">
+    <amp-layout class="fixedblock-actions" layout="responsive" width="2" height="1">
+        <div class="pic-text-actions">
             <amp-img src="assets/vtour-redbud.png" width="63" height="63"></amp-img>
 
-            <amp-fit-text class="text" layout="responsive" max-font-size="16">
+            <amp-fit-text class="text" width="400" height="63" layout="responsive" max-font-size="16">
                 Take a virtual tour
             </amp-fit-text>
         </div>
     </amp-layout>
-</amp-layout>
-<amp-layout class="small_left">
-    <amp-layout class="fixedblock" layout="responsive">
-        <div class="pic-text">
+</div>
+
+<div class="small">
+    <amp-layout class="fixedblock-actions" layout="responsive" width="2" height="1">
+        <div class="pic-text-actions">
             <amp-img src="assets/mail-poppy.png" width="63" height="63"></amp-img>
 
-            <amp-fit-text class="text" layout="responsive" max-font-size="16">
+            <amp-fit-text class="text" width="400" height="63" layout="responsive" max-font-size="16">
                 Sign up for more info
             </amp-fit-text>
         </div>
     </amp-layout>
-</amp-layout>
-<amp-layout class="small_right">
-    <amp-layout class="fixedblock" layout="responsive">
-        <div class="pic-text">
+</div>
+
+<div class="small">
+    <amp-layout class="fixedblock-actions" layout="responsive" width="2" height="1">
+        <div class="pic-text-actions">
             <amp-img src="assets/banner-gold.png" width="63" height="63"></amp-img>
 
-            <amp-fit-text class="text" layout="responsive" max-font-size="16">
+            <amp-fit-text class="text" width="400" height="63" layout="responsive" max-font-size="16">
                 Join our alumni association
             </amp-fit-text>
         </div>
     </amp-layout>
-</amp-layout>
-<amp-layout class="small_left">
-    <amp-layout class="fixedblock" layout="responsive">
-        <div class="pic-text">
+</div>
+
+
+<div class="small">
+    <amp-layout class="fixedblock-actions" layout="responsive" width="2" height="1">
+        <div class="pic-text-actions">
             <amp-img src="assets/gift-grass.png" width="63" height="63"></amp-img>
 
-            <amp-fit-text class="text" layout="responsive" max-font-size="16">
+            <amp-fit-text class="text" width="400" height="63" layout="responsive" max-font-size="16">
                 Make a gift to UC Davis
             </amp-fit-text>
         </div>
     </amp-layout>
+</div>
+
+<amp-layout class="welcomeContainer"  width="1200" height="626" layout="responsive">
+    <amp-img src="assets/welcome-uc-davis-transfer-class-2020.jpg" width="1200" height="626" layout="responsive"></amp-img>
+</amp-layout>
+
+<amp-layout class="community" width="600" height="263" layout="responsive">
+    <div class="pic-text-community">
+
+        <amp-fit-text class="text" width="400" height="100" max-font-size="20">
+            <div class="seven">
+                7
+            </div>
+            Ways to find your community
+        </amp-fit-text>
+
+        <amp-img src="assets/banduh.jpg" width="600" height="450" layout="intrinsic"></amp-img>
+    </div>
 </amp-layout>
 
 
-
-<amp-layout class="wide"layout="responsive">
-        <amp-img class="badge" src="assets/badge-veterinary_0.png" width="146" height="146" padding="20"></amp-img>
-        <amp-img class="badge" src="assets/uc-davis-ranked-six-public-university.png" width="146" height="146" padding="20"></amp-img>
-        <amp-img class="badge" src="assets/ag-ranking-badge91916_0.png" width="146" height="146" padding="20"></amp-img>
-    <amp-layout class="bage-text">
-        <p>Ranked 1st in the world for veterinary medicine</p>
-        <p>Ranked 6th nationally for public universities</p>
-        <p>Ranked 1st nationally in agriculture</p>
-    </amp-layout>
+<amp-layout class="fixedblock-badge" width="400" height="125" layout="responsive">
+    <div class="pic-text-badge">
+        <amp-img class="badge" src="assets/badge-veterinary_0.png" width="146" height="146"
+                 layout="intrinsic"></amp-img>
+        <amp-fit-text class="text" width="400" height="100" layout="intrinsic" max-font-size="16">
+            Ranked 1st in the world for veterinary medicine
+        </amp-fit-text>
+    </div>
 </amp-layout>
 
-<amp-layout class="wide"layout="responsive">
+<amp-layout class="fixedblock-badge" width="400" height="125" layout="responsive">
+    <div class="pic-text-badge">
+        <amp-img class="badge" src="assets/uc-davis-ranked-six-public-university.png" width="146" height="146"
+                 layout="intrinsic"></amp-img>
+        <amp-fit-text class="text" width="400" height="100" layout="intrinsic" max-font-size="16">
+            Ranked 6th nationally for public universities
+        </amp-fit-text>
+    </div>
+</amp-layout>
+
+<amp-layout class="fixedblock-badge" width="400" height="125" layout="responsive">
+    <div class="pic-text-badge">
+        <amp-img class="badge" src="assets/ag-ranking-badge91916_0.png" width="146" height="146"
+                 layout="intrinsic"></amp-img>
+        <amp-fit-text class="text" width="400" height="100" layout="intrinsic" max-font-size="16">
+            Ranked 1st nationally in agriculture
+        </amp-fit-text>
+    </div>
+</amp-layout>
+
+<amp-carousel width="1000" height="563" class="welcomeContainer" layout="responsive"
+              type="slides">
+    <amp-img src="assets/cal-aggie-band-uh-2.jpg" width="1000" height="563" layout="responsive"></amp-img>
+    <amp-img src="assets/20101013_coho_138.jpg" width="1000" height="563" layout="responsive"></amp-img>
+    <amp-img src="assets/20111114_arboretum_034.jpg" width="1000" height="563" layout="responsive"></amp-img>
+    <amp-img src="assets/20120106_students_center_8459.jpg" width="1000" height="563" layout="responsive"></amp-img>
+    <amp-img src="assets/20120613_devon_lambert_0080_0.jpg" width="1000" height="563" layout="responsive"></amp-img>
+    <amp-img src="assets/20120928_tercero_120.jpg" width="1000" height="563" layout="responsive"></amp-img>
+    <amp-img src="assets/20121005_pajamarino_288.jpg" width="1000" height="563" layout="responsive"></amp-img>
+    <amp-img src="assets/20130612_segundodc_017.jpg" width="1000" height="563" layout="responsive"></amp-img>
+    <amp-img src="assets/20130927_buzz_154.jpg" width="1000" height="563" layout="responsive"></amp-img>
+</amp-carousel>
+
+<amp-layout class="fixedblock-badge" width="2" height="1" layout="responsive">
     <h1 class="center">Follow UC Davis</h1>
     <amp-img src="assets/icons-social-follow.svg" layout="responsive"></amp-img>
 </amp-layout>
