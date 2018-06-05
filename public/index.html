@@ -2316,7 +2316,7 @@ label.option {
             <div class="l-container--navigation off-canvas off-canvas--left">
                 <div class=off-canvas__container>
                     <div class=l-search-popup>
-                        <button class="js-search-popup__open search-popup__open">Open</button>
+                        <button class="js-search-popup__open search-popup__open" onclick="mixpanel.track('Search Button click')">Open</button>
                         <div class=search-popup>
                             <button class=search-popup__close><span class=search-popup__close-icon>Close</span></button>
                             <form accept-charset=UTF-8 action=https://www.ucdavis.edu/search/google
@@ -2347,7 +2347,7 @@ label.option {
                     </div>
                     <nav class=primary-nav>
                         <ul class=menu>
-                            <li class="first expanded is-visible"><a href=https://www.ucdavis.edu/about>About Us<span
+                            <li class="first expanded is-visible" onclick="mixpanel.track('About Us')"><a href=https://www.ucdavis.edu/about>About Us<span
                                     class=submenu-toggle><span class=submenu-toggle__icon>+</span></span></a>
                                 <ul class=menu>
                                     <li class="first expanded is-visible"><a
@@ -2461,7 +2461,7 @@ label.option {
                                                 Accessibility</a>
                                         </ul>
                                 </ul>
-                            <li class="expanded is-visible"><a href=https://www.ucdavis.edu/admissions>Admissions<span
+                            <li class="expanded is-visible" onclick="mixpanel.track('Admissions')"><a href=https://www.ucdavis.edu/admissions>Admissions<span
                                     class=submenu-toggle><span class=submenu-toggle__icon>+</span></span></a>
                                 <ul class=menu>
                                     <li class="first expanded is-visible"><a
@@ -2750,7 +2750,7 @@ label.option {
                                                 </ul>
                                         </ul>
                                 </ul>
-                            <li class="expanded is-visible"><a href=https://www.ucdavis.edu/academics>Academics<span
+                            <li class="expanded is-visible" onclick="mixpanel.track('Academics')"><a href=https://www.ucdavis.edu/academics>Academics<span
                                     class=submenu-toggle><span class=submenu-toggle__icon>+</span></span></a>
                                 <ul class=menu>
                                     <li class="first expanded is-visible"><a href=https://www.ucdavis.edu/majors
@@ -2832,7 +2832,7 @@ label.option {
                                                 </ul>
                                         </ul>
                                 </ul>
-                            <li class="expanded is-visible"><a href=https://www.ucdavis.edu/research>Research<span
+                            <li class="expanded is-visible" onclick="mixpanel.track('Research')"><a href=https://www.ucdavis.edu/research>Research<span
                                     class=submenu-toggle><span class=submenu-toggle__icon>+</span></span></a>
                                 <ul class=menu>
                                     <li class="leaf first is-visible"><a
@@ -2851,7 +2851,7 @@ label.option {
                                     <li class="leaf last"><a href=https://www.ucdavis.edu/research/resources>Research
                                         Resources</a>
                                 </ul>
-                            <li class="expanded is-visible"><a href=https://www.ucdavis.edu/campus-life>Campus Life<span
+                            <li class="expanded is-visible" onclick="mixpanel.track('Campus Life')"><a href=https://www.ucdavis.edu/campus-life>Campus Life<span
                                     class=submenu-toggle><span class=submenu-toggle__icon>+</span></span></a>
                                 <ul class=menu>
                                     <li class="first expanded is-visible"><a href=https://www.ucdavis.edu/calendar/ >Calendar<span
@@ -3243,7 +3243,7 @@ label.option {
                                     <li class="leaf last"><a href=https://www.ucdavis.edu/students/resources>Student
                                         Resources</a>
                                 </ul>
-                            <li class="expanded is-visible last"><a href=https://www.ucdavis.edu/news
+                            <li class="expanded is-visible last" onclick="mixpanel.track('News')"><a href=https://www.ucdavis.edu/news
                                                                     title=News>News<span class=submenu-toggle><span
                                     class=submenu-toggle__icon>+</span></span></a>
                                 <ul class=menu>
@@ -3380,7 +3380,7 @@ label.option {
                                                                             <div class="media-youtube-video media-youtube-2">
                                                                                 <div class="wrapper">
                                                                                     <div class="youtube" data-embed="4xSyF6VDuIM">
-                                                                                        <div class="play-button"></div>
+                                                                                        <div class="play-button" onclick="mixpanel.track('Hero video play')"></div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -4445,7 +4445,7 @@ label.option {
                                                                     <div class="media-youtube-video media-youtube-1">
                                                                         <div class="wrapper">
                                                                             <div class="youtube" data-embed="WCLKzB0bocc">
-                                                                                <div class="play-button"></div>
+                                                                                <div class="play-button" onclick="mixpanel.track('2nd video play')"></div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -4469,34 +4469,47 @@ label.option {
                                                 <ul class=pack>
                                                     <li class=pack__item><a href=https://www.facebook.com/UCDavis
                                                                             class="social-follow__icon social-follow--facebook"
-                                                                            title=Facebook>Follow on Facebook</a>
+                                                                            onclick="mixpanel.track('Facebook - social')"
+                                                                            title=Facebook>Follow on Facebok</a>
                                                         <div class=social-follow__title><a
-                                                                href=https://www.facebook.com/UCDavis title=Facebook>Facebook</a>
+                                                                href=https://www.facebook.com/UCDavis
+                                                                onclick="mixpanel.track('Facebook - social')"
+                                                                title=Facebook>Facebook</a>
                                                         </div>
                                                     <li class=pack__item><a href=https://twitter.com/ucdavis
                                                                             class="social-follow__icon social-follow--twitter"
+                                                                            onclick="mixpanel.track('Twitter - social')"
                                                                             title=Twitter>Follow on Twitter</a>
                                                         <div class=social-follow__title><a
                                                                 href=https://twitter.com/ucdavis
+                                                                onclick="mixpanel.track('Twitter - social')"
                                                                 title=Twitter>Twitter</a></div>
                                                     <li class=pack__item><a href=https://instagram.com/ucdavis
                                                                             class="social-follow__icon social-follow--instagram"
+                                                                            onclick="mixpanel.track('Instagram - social')"
                                                                             title=Instagram>Follow on Instagram</a>
                                                         <div class=social-follow__title><a
-                                                                href=https://instagram.com/ucdavis title=Instagram>Instagram</a>
+                                                                href=https://instagram.com/ucdavis
+                                                                onclick="mixpanel.track('Instagram - social')"
+                                                                title=Instagram>Instagram</a>
                                                         </div>
                                                     <li class=pack__item><a href=http://www.youtube.com/ucdavis
                                                                             class="social-follow__icon social-follow--youtube"
+                                                                            onclick="mixpanel.track('Youtube - social')"
                                                                             title=YouTube>Follow on YouTube</a>
                                                         <div class=social-follow__title><a
-                                                                href=http://www.youtube.com/ucdavis title=YouTube>YouTube</a>
+                                                                href=http://www.youtube.com/ucdavis
+                                                                onclick="mixpanel.track('Youtube - social')"
+                                                                title=YouTube>YouTube</a>
                                                         </div>
                                                     <li class=pack__item><a href=https://plus.google.com/+ucdavis/posts
                                                                             class="social-follow__icon social-follow--googleplus"
+                                                                            onclick="mixpanel.track('Google Plus - social')"
                                                                             title="Google Plus">Follow on Google
                                                         Plus</a>
                                                         <div class=social-follow__title><a
                                                                 href=https://plus.google.com/+ucdavis/posts
+                                                                onclick="mixpanel.track('Google Plus')"
                                                                 title="Google Plus">Google Plus</a></div>
                                                 </ul>
                                             </div>
@@ -4515,7 +4528,7 @@ label.option {
             </div>
         </div>
     </div>
-    <footer class="footer l-footer" role=contentinfo>
+    <footer class="footer l-footer" role=contentinfo onclick="mixpanel.track('Footer click')">
         <div class=l-container>
             <div class="pack footer__navs l-region l-region--footer pack--small">
                 <nav class="pack__item footer-nav" id=block-menu-menu-footer-primary role=navigation>
